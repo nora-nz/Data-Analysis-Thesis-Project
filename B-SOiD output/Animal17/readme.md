@@ -1,8 +1,0 @@
-[bsoid_labels_10Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511485/bsoid_labels_10Hz_20230111_134017.csv)
-[bsoid_labels_25Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511486/bsoid_labels_25Hz_20230111_134017.csv)
-[bsoid_runlen_10Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511490/bsoid_runlen_10Hz_20230111_134017.csv)
-[bsoid_runlen_25Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511491/bsoid_runlen_25Hz_20230111_134017.csv)
-[bsoid_stats_10Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511492/bsoid_stats_10Hz_20230111_134017.csv)
-[bsoid_stats_25Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511493/bsoid_stats_25Hz_20230111_134017.csv)
-[bsoid_transitions_10Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511495/bsoid_transitions_10Hz_20230111_134017.csv)
-[bsoid_transitions_25Hz_20230111_134017.csv](https://github.com/nora-nz/Data-Analysis-Thesis-Project/files/10511496/bsoid_transitions_25Hz_20230111_134017.csv)
