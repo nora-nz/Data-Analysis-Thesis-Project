@@ -1,0 +1,107 @@
+    # Project definitions (do not edit)
+Task: forreal
+scorer: Nora
+date: Nov17
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD01_OF.avi:
+    crop: 0, 418, 0, 444
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD02_OF.avi:
+    crop: 0, 438, 0, 440
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD03_OF.avi:
+    crop: 0, 416, 0, 432
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD04_OF.avi:
+    crop: 0, 404, 0, 422
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD05_TR M FAD+_OF.avi:
+    crop: 0, 404, 0, 402
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD06_TL M FAD-_OF.avi:
+    crop: 0, 404, 0, 402
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD07_TR F FAD+_OF.avi:
+    crop: 0, 396, 0, 400
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD08_TL F FAD-_OF.avi:
+    crop: 0, 392, 0, 390
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD09_remapped.avi:
+    crop: 0, 410, 0, 404
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD10_remapped.avi:
+    crop: 0, 410, 0, 404
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD11_remapped.avi:
+    crop: 0, 410, 0, 404
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD12_remapped.avi:
+    crop: 0, 400, 0, 404
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD13_remapped.avi:
+    crop: 0, 410, 0, 402
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD15_remapped.avi:
+    crop: 0, 410, 0, 402
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD16_remapped.avi:
+    crop: 0, 410, 0, 402
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD17_OF.avi:
+    crop: 0, 384, 0, 410
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD18_OF.avi:
+    crop: 0, 390, 0, 410
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD19_OF.avi:
+    crop: 0, 390, 0, 410
+  D:\Norasstuff\uni\Y4\project\forrealforreal\forreal-Nora-2022-11-17\videos\FAD20_OF.avi:
+    crop: 0, 390, 0, 410
+bodyparts:
+- nose
+- r_ear
+- l_ear
+- midpoint
+- r_hlimb
+- l_hlimb
+- hip
+- midtail
+- tailtip
+
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 11
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - r_ear
+  - l_ear
+  - midpoint
+  - r_hlimb
+  - l_hlimb
+  - hip
+  - midtail
+  - tailtip
+
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
